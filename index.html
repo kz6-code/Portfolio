@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	
+	<title>Ali Muhammad</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- STYLESHEETS -->
+
+	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="style/all.min.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/slick.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/animate.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/style.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/ben.css" type="text/css" media="all">
+
+
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<style type="text/css">
+/*============================================================================================ */
+
+body{
+	overflow: hidden;
+}
+
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+
+}
+
+
+.progress-bar1{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background-color: transparent;
+}
+
+.progress-bar-inner1{
+	position: relative;
+	width: 0%;
+	height: 19px;
+	padding: 0px;
+	font-size: 16px;
+	background-color: #FFCE00;
+	color: black;
+}
+
+::-webkit-scrollbar{
+	background:#FFCE00;
+}
+
+::-webkit-scrollbar-thumb{
+	background:linear-gradient(to top, #008aff, #00ffe7);
+}
+
+
+
+
+</style>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(){
+
+		const progressbarinner = document.querySelector('.progress-bar-inner1');
+
+		window.addEventListener('scroll', function(){
+			let h = document.documentElement;
+
+			let st = h.scrollTop || document.body.scrollTop;
+			let sh = h.scrollHeight || document.body.scrollHeight;
+
+			let percent = st / (sh - h.clientHeight) * 100;
+			let roundedPercent = Math.round(percent);
+
+			progressbarinner.style.width = percent + "%";
+			progressbarinner.innerText = roundedPercent + "%";
+		});
+	});
+</script>
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+<!-- desktop header -->
+<header class="desktop-header-3 fixed-top" >
+
+    <div class="container">
+	
+        <nav class="navbar navbar-expand-lg navbar-dark">
+           
+            <b class="navbar-brand">Ali Muhammad</b> 
+
+            <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto scrollspy">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#tools" class="nav-link">Tools</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Expertise</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Register</a></li>
+					<li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+					<li class="nav-item"><a href="#achieve" class="nav-link">Qualifications</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+	<div class="progress-bar1">
+		<div class="progress-bar-inner1">0%</div>
+	</div>
+
+
+</header>
+
+
+<!-- main layout -->
+<main class="content-3">
+	
+	<!-- section home -->
+	<section id="home" class="home d-flex align-items-center">
+		<div class="container">
+
+			<!-- intro -->
+			<div class="intro">
+				<!-- avatar image -->
+				<img src="WIN_20220901_17_34_52_Pro.jpg" style="object-fit:cover; width: 150px;border-radius: 150px; height: 150px; " class="mb-4">
+
+				<!-- info -->
+				<h1 class="mb-2 mt-0">Ali Muhammad</h1>
+				<span>I'm a <span class="text-rotating morphext"><span class="animated bounceIn"><strong>Coder</strong></span></span></span>
+			</div>
+
+			<!-- parallax layers -->
+			<div class="parallax" data-relative-input="true" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block;"><path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd"></path></svg>
+
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd"></path></svg>
+
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd"></path></svg>
+
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-14.412px, 34.4068px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd"></rect></svg>
+
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"></rect></svg>
+
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-12.01px, 28.6724px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><g fill="#FF4C60" fill-rule="evenodd"><path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z"></path><path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z"></path></g></svg>
+
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-9.60801px, 22.9379px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd"></path></svg>
+
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"></rect></svg>
+
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd"></path></svg>
+
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><g fill="#44D7B6" fill-rule="evenodd"><path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z"></path><path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z"></path></g></svg>
+
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-12.01px, 28.6724px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd"></path></svg>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- section about -->
+	<section id="about">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">About Me</h2>
+
+			<div class="spacer" data-height="60" style="height: 60px;"></div>
+			
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="text-center text-md-left">
+						<!-- avatar image -->
+						<img src="WIN_20220901_17_34_52_Pro.jpg" style="object-fit: cover; width: 150px;border-radius: 150px; height: 150px; " class="mb-4">
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+				</div>
+
+				<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-white shadow-dark padding-30">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- about text -->
+								<p>Hi I'm Ali Muhammad - the coder!<br> Welcome to my portfolio. Here you'll get an insight to some of the areas of expertise I have in coding and the work I've' done in completing coding projects such as computer games, space API's, 3D randomized generation etc. Coding is my big passion and I wholeheartedly believe that the future is AI (Artificial Intelligence) and coding is the key vehicle powering and driving this new revolution. </p>
+
+								<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+							</div>
+							<div class="col-md-6">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Web/App Development</h4>
+										<span class="float-right">99%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="99" data-color="#FFD15C" style="background-color: orange; width: 99%;">
+										</div>
+									</div>
+									<div class="spacer" data-height="20" style="height: 20px;"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">UI/UX design</h4>
+										<span class="float-right">60%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" data-color="#FF4C60" style="background-color: red; width: 40%;">
+										</div>
+									</div>
+									<div class="spacer" data-height="20" style="height: 20px;"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Python</h4>
+										<span class="float-right">30%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" data-color="#6C6CE5" style="background-color: purple; width: 10%;">
+										</div>
+									</div>
+                				  <div class="spacer" data-height="20" style="height: 20px;"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Raspberry PI</h4>
+										<span class="float-right">40%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" data-color="green" style="background-color: green; width: 40%;">
+										</div>
+									</div>
+									<div class="spacer" data-height="20" style="height: 20px;"></div>
+								</div>
+
+				                <!-- skill item -->
+				                <div class="skill-item">
+				                  <div class="skill-info clearfix">
+				                    <h4 class="float-left mb-3 mt-0">Machine Learning</h4>
+				                    <span class="float-right">20%</span>
+				                  </div>
+				                  <div class="progress">
+				                    <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" data-color="#6C6CE5" style="background-color: green; width: 10%;">
+				                    </div>
+				                  </div>
+				                </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- row end -->
+
+			<div class="spacer" data-height="70" style="height: 70px;"></div>
+			
+			<div class="row">
+				
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">128</em></h3>
+							<p class="mb-0">Projects completed</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">200</em></h3>
+							<p class="mb-0">Number of hours spend on HTML</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">120</em></h3>
+							<p class="mb-0">Number of hours spend on PYTHON</p>
+						</div>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">479</em></h3>
+							<p class="mb-0">Number of hours spend on JS</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+	</section>
+	
+  <!-- section projects -->
+  <section id="projects">
+
+    <div class="container">
+      
+      <!-- section title -->
+      <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Selected Projects</h2>
+
+      <div class="spacer" data-height="60" style="height: 60px;"></div>
+      
+      <div class="row blog-wrapper">
+        
+        <!-- projects item -->
+        <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/ItmEmARIO/">
+				  <img src="mario.jpeg" alt="blog-title">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/ItmEmARIO/">AI Mario Game</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">01 August, 2022</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/Clock/">
+				  <img src="pocket-watch-560937__340.jpg" alt="blog-title">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/Clock/">Cool Clock</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">11 August, 2022</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; height: 330px; animation-delay: 200ms; animation-name: fadeIn; margin-bottom: 10px;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/Terrain-gen/">
+				  <img src="mountains-1412683__340.jpg" alt="blog-title" style="height: 239px;">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/Terrain-gen/">Cool 3d Terrain-gen</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">16 August, 2022</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; margin-top: 10px; height: 290px; animation-delay: 200ms; animation-name: fadeIn;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/Movingtree/">
+				  <img src="tree-736885__340.webp" alt="blog-title" style="height: 200px; width: 900px;  ">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/Movingtree/">Moving Tree</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">10 August, 2022</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn; ">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/StarField/">
+				  <img src="starfield-2276843__340.jpg" alt="blog-title" >
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/StarField/">StarField(controlable)</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">28 August, 2022</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn; margin-bottom: 10px;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/TextParticle/start.html">
+				  <img src="nucleus-35000__340.jpg" alt="blog-title" style="margin-left: 17%; justify-content: center; object-fit: cover; height: 210px; width: 210px;">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/TextParticle/start.html">Text Particles</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">29 August, 2020</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/rayCast/">
+				  <img src="download.jpg" alt="blog-title" style="height: 250px;">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/rayCast/">3D first person (prototype)</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">23 July, 2020</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/-kz6-code.github.io/">
+				  <img src="muda.jpg" alt="blog-title" style=" height: 250px;">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/-kz6-code.github.io/">Impossible Game</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">3 September, 2021</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+		  <div class="col-md-4">
+			<div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style=" visibility: visible; animation-delay: 200ms; animation-name: fadeIn; height: 330px;">
+			  <div class="thumb">
+				<a href="https://kz6-code.github.io/kz6-code">
+				  <img src="Snake.jpg" alt="blog-title" style=" object-fit: cover; height: 200px; width: 400px;">
+				</a>
+			  </div>
+			  <div class="details">
+				<h4 class="my-0 title">
+					<a href="https://kz6-code.github.io/kz6-code">Snake Game</a>
+				</h4>
+				<ul class="list-inline meta mb-0 mt-2">
+				  <li class="list-inline-item">30 December, 2020</li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+        <!-- end project item -->
+
+      </div>
+
+    </div>
+
+  </section>
+  
+    <!-- section tools -->
+  <section id="tools">
+
+    <div class="container">
+      
+      <!-- section title -->
+      <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Tools And Languages</h2>
+
+      <div class="spacer" data-height="60" style="height: 60px;"></div>
+      
+      <!-- portolio wrapper -->
+      <div class="row portfolio-wrapper" style="position: relative; height: 595.062px;">
+        
+        <!-- tool item -->
+        <div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">ml5.js</h4>
+              </div>
+              <div class="thumb">
+                <img src="ml5.png" alt="Portfolio-title">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+        <!-- end tool item -->
+
+
+		<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal2" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">Html</h4>
+              </div>
+              <div class="thumb">
+                <img src="html.png" alt="Portfolio-title" style="height: 260px; margin-left: 30px;">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+
+
+		<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal3" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">Javascript</h4>
+              </div>
+              <div class="thumb">
+                <img src="java.png" alt="Portfolio-title" style="height: 260px; margin-left: 30px;">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+
+
+		<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">CSS</h4>
+              </div>
+              <div class="thumb">
+                <img src="download.png" alt="Portfolio-title" style="height: 260px; margin-left: 70px;">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+
+
+		<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal5" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">Python</h4>
+              </div>
+              <div class="thumb">
+                <img src="python.jpg" alt="Portfolio-title" style="height: 260px; margin-left: 40px;">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+
+
+
+
+		<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModal6" style="position: absolute; left: 0%; top: 0px;">
+            <div class="portfolio-item rounded shadow-dark">
+              <div class="details">
+                <h4 class="title">Typescript</h4>
+              </div>
+              <div class="thumb">
+                <img src="typescript.png" alt="Portfolio-title" style="height: 260px; margin-left: 40px;">
+                <div class="mask"></div>
+              </div>
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+	
+
+  <!-- section services -->
+  <section id="services">
+
+    <div class="container">
+      
+      <!-- section title -->
+      <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Areas of Expertise & Specialisation</h2>
+
+      <div class="spacer" data-height="60" style="height: 60px;"></div>
+      
+      <div class="row">
+
+        <!-- service box -->
+        <div class="col-md-4">
+			<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="background-color: rgb(249, 215, 76);">
+			  <img src="web.png" style="width: 120px; height:80px; border-radius:11px; object-fit: cover;">
+			  <h3 class="mb-3 mt-0">Web Development</h3>
+			  <p class="mb-0">I have sharp proficiency and extensive experience in creating responsive and professional websites for all types of users</p>
+			</div>
+			<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+		  </div>
+		  <!-- end service box -->
+  
+		  <div class="col-md-4">
+			  <div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="background-color: rgb(249, 215, 76);">
+				<img src="space.png" style="width: 120px; height:80px; border-radius:11px; object-fit: cover;">
+				<h3 class="mb-3 mt-0">Space Technology
+				</h3>
+				<p class="mb-0">By using coding tools I can visualise data of space activity. I can also model 3D spacecrafts used for simulations  </p>
+			  </div>
+			  <div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+			</div>
+  
+			<div class="col-md-4">
+			  <div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="background-color: rgb(249, 215, 76);">
+			  <img src="images.jpg" style="width: 120px; height:80px; border-radius:11px; object-fit: fill;">
+			  <h3 class="mb-3 mt-0">Web & Smartphone Apps
+			  </h3>
+			  <p class="mb-0">I can design and develop WebApps which have a good UI & UX design. I can also create apps for Android and IOS smartphone devices </p>
+		  </div>
+		  <div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+			</div>
+
+
+			<br><br><br><br><br><br>
+
+			<div class="col-md-4">
+				<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="margin-top: 20px; background-color: rgb(249, 215, 76);">
+				<img src="game.png"style="width: 120px; height:80px; border-radius:11px; object-fit: cover;">
+				<h3 class="mb-3 mt-0">Computer Games
+				</h3>
+				<p class="mb-0">I have experince in designing and devoloping 2-dimensional and 3-dimensional games using only Javascript CSS and HTML </p>
+			</div>
+			<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+			  </div>
+
+
+			  <div class="col-md-4">
+				<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="margin-top: 20px; background-color: rgb(249, 215, 76);">
+				<img src="ai.png"style="width: 120px; height:80px; border-radius:11px; object-fit: cover;" >
+				<h3 class="mb-3 mt-0">AI (Artificial Intelligence)
+				</h3>
+				<p class="mb-0">I can effectively use AI so that it can recognise and learn things which are used in security sytems and robots e.g Alexa </p>
+			</div>
+			<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+			  </div>
+
+			  <div class="col-md-4">
+				<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C" style="margin-top: 20px; background-color: rgb(249, 215, 76);">
+				<img src="anime.jpg" style="width: 120px; height:80px; border-radius:11px; object-fit: cover;">
+				<h3 class="mb-3 mt-0">Data Storage/Managment
+				</h3>
+				<p class="mb-0">Using <strong>Python</strong> and <strong>Javascript</strong>, I can manage data. This can be used for things such as crypto (an online currency) </p>
+			</div>
+			<div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+			  </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+		
+	<!-- section prices -->
+	<section id="pricing">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeIn" style="visibility: visible; animation-name: fadeIn;">Services</h2>
+
+			<div class="spacer" data-height="60" style="height: 60px;"></div>
+			
+			<div class="row">
+				
+				<!-- price item -->
+				
+				<div class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeKYlZ0_9tQ0BUx-TNOwkK5gQzw4SnuW5OsbTVxi4bZ97_kLA/viewform">
+					<div class="price-item bg-white rounded shadow-dark text-center" style="color: black;">
+						<img src="svg/price-1.svg" alt="Regular">
+						<h2 class="plan" style="color:#353353;">Ali's Coding Club</h2>
+						<p>Join me in this club to learn more about coding</p>
+						<p>Click for more details and to register</p>
+						<h3 class="price" style="font-size: 21px; color:blue">Click Here</h3>
+					</div>
+				</a>
+				</div>
+			
+				<!-- end price item -->
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+
+  <!-- section hobbies -->
+  <section id="hobbies">
+
+    <div class="container">
+      
+      <!-- section title -->
+      <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Hobbies</h2>
+
+      <div class="spacer" data-height="60" style="height: 60px;"></div>
+      
+      <div class="row">
+
+        <div class="col-md-6">
+          
+          <!-- hobbies wrapper -->
+          <div class=" edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+            <!-- hobbies item -->
+            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <div class="content">
+                <img src="swimming.png" style="width:100px; height: 100px; border-radius: 21px;">
+                <a href="https://britishmilitarymartialarts.co.uk"><h3 id="glammie" class="title" style="display: inline-block; color: darkblue;">British Military Martial Arts</h3></div></a>
+				<p style="display: inline-block;">Brown Stripe Belt ( I am 1 away from black )</p>
+                <hr>
+              </div>
+            </div>
+            <!-- end hobbies item -->
+
+
+
+            <span class="line"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+	<style>/*
+	<!-- section funfacts -->
+	<section>
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Things I love the most</h2>
+
+			<div class="spacer" data-height="60" style="height: 60px;"></div>
+			
+			<!-- funfacts wrapper -->
+			<div class="testimonials-wrapper slick-initialized slick-slider slick-dotted" role="toolbar">
+				
+				<!-- funfacts item -->
+			<div aria-live="polite" class="slick-list draggable"><div class="slick-track" role="listbox" style="opacity: 1; width: 2800px; transform: translate3d(-700px, 0px, 0px);">
+
+        	 <div class="testimonial-item text-center mx-auto slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 700px;">
+  			</div>
+
+      		 <div class="testimonial-item text-center mx-auto slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 700px;">
+				<div class="mb-3 mx-auto">
+
+					<img style="border-radius: 20px; margin-left: 20px;" class="img-responsive" src="beach.jpg" >						
+				</div>
+
+					<h4 class="mt-3 mb-0">My Mum</h4>
+					
+					<div class="bg-white padding-30 shadow-dark rounded triangle-top position-relative mt-4">
+						<p class="mb-0">My mum is the best (Family..... family always comes first)</p>
+					</div>
+				</div>
+
+      </div></div>
+				
+				
+
+			</div>
+
+
+		</div>
+
+	</section> */</style>
+
+
+	<section id="achieve" style="margin-bottom: 80px;">
+
+		<div class="container">
+		  
+		  <!-- section title -->
+		  <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Qualifications</h2>
+	
+		  <div class="spacer" data-height="60" style="height: 60px;"></div>
+		  
+		  <!-- portolio wrapper -->
+		  <div class="row portfolio-wrapper" style="position: relative; height: 595.062px;">
+			
+			<!-- tool item -->
+			<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModalq1" style="position: absolute; left: 0%; top: 0px;">
+				<div class="portfolio-item rounded shadow-dark">
+				  <div class="details">
+					<h4 class="title">Smartphone Apps</h4>
+				  </div>
+				  <div class="thumb">
+					<img src="q_1.png" alt="Portfolio-title" style="padding: 20px; border-style:groove ; border-width: 20px; border-color: #FFCE00;">
+					<div class="mask"></div>
+				  </div>
+				</div>
+			</div>
+
+
+			<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModalq2" style="position: absolute; left: 0%; top: 0px;">
+				<div class="portfolio-item rounded shadow-dark">
+				  <div class="details">
+					<h4 class="title">Full Stack</h4>
+				  </div>
+				  <div class="thumb">
+					<img src="q_2.png" alt="Portfolio-title" style="padding: 20px; border-style:groove ; border-width: 20px; border-color: #FFCE00;">
+					<div class="mask"></div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 grid-item art" data-toggle="modal" data-target="#myModalq3" style="position: absolute; left: 0%; top: 0px;">
+				<div class="portfolio-item rounded shadow-dark">
+				  <div class="details">
+					<h4 class="title">Web Developer</h4>
+				  </div>
+				  <div class="thumb">
+					<img src="q_3.png" alt="Portfolio-title" style="padding: 20px; border-style:groove ; border-width: 20px; border-color: #FFCE00;">
+					<div class="mask"></div>
+				  </div>
+				</div>
+			</div>
+
+	
+	
+		  </div>
+		</div>
+	
+	  </section>
+	
+  
+	<!-- section contact -->
+	<section id="contact" style="background: #353353;padding: 15px;">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp" style="margin-left:0px;color: white;visibility: visible; animation-name: fadeInUp;">Get In Touch</h2>
+
+			
+			<div class="row">
+				
+				<div class="col-md-8">
+
+					<h3 class="wow fadeInUp" style="color: white;visibility: visible; animation-name: fadeInUp;">Ali Muhammad</h3>
+				    <hr style="border: 0.5px solid white;">
+					<img src="WIN_20220901_17_34_52_Pro.jpg" style=" object-fit: cover; display: inline-block; height: 100px; width: 100px;border-radius: 100px" class="mb-4">
+            		<p style="margin: 5px; color: white; display: inline-block;">Please free feel to contact me on my social handles</p>
+
+				</div>
+
+				<div class="col-md-4">
+
+  				    <h3 class="wow fadeInUp" style="color: white;visibility: visible; animation-name: fadeInUp;">MY CONTACTS</h3>
+   					<hr style="border: 0.5px solid white;">
+      				<p style="color: white;">Let us be social</p>
+
+					  <div class="contact_1">
+
+						<a href="mailto:coderalimuhammad@gmail.com?Subject=Hi">
+							<h5 style="color: white;"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Gmail</h5>
+						</a>
+		
+						<a href="#"></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	
+</main>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top" style="display: none;">
+  <img src="go_to_top.png">
+</a>
+
+<!-- modal -->
+<div id="myModal" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>ml5.js is used for object identification cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+ <!-- end modal -->
+
+ <div id="myModal2" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>Html is a launguage used to make websites cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+
+ <div id="myModal3" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>Javascript can be used for front end and back end of websites it is also reason anything on the internet moves like youtube videos cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+
+
+ <div id="myModal4" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>css is a launguage to style websites and do things such as animations without it everything would be just a plain html page unless you use scss as well cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+ <div id="myModal5" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>Python is a very easy to learn launguage due to its fairly easy syntax it tends to be used for things like data management or data science and AI cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+
+ <div id="myModal6" class="modal fade ">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body">
+              <p>Typescript is basically Javascript with additional features it can be used to handle large scale javascript projects and has static typing so you can determine if a variable preforms a action or not. cool right</p>
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+ <div id="myModalq1" class="modal fade " style="height: 100%; width: 100%;">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body" style="height: 100%; width: 100%;">
+              <img src="q_1.png" style=" height: 100%; width: 100%;">
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+ <div id="myModalq2" class="modal fade " style="height: 100%; width: 100%;">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body" style="height: 100%; width: 100%;">
+              <img src="q_2.png" style=" height: 100%; width: 100%;">
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+ <div id="myModalq3" class="modal fade " style="height: 100%; width: 100%;">
+    <div class="modal-dialog" >
+          <!-- Modal content-->
+        <div class="modal-content">
+      
+            <button class="close" data-dismiss="modal" style="text-align: right;padding: 10px;">&times;</button>
+            <hr>
+            <div class="modal-body" style="height: 100%; width: 100%;">
+              <img src="q_3.png" style=" height: 100%; width: 100%;">
+             </div>
+
+        </div>
+    </div>
+ </div>
+
+
+
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+      
+
+
+</body>
+
+
+</html>
